@@ -26,7 +26,7 @@
   <component name="RunManager" selected=".NET Project.hw1">
     <configuration name="hw1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/hw1/bin/Debug/net5.0/hw1.exe" />
-      <option name="PROGRAM_PARAMETERS" value="5 / 7u" />
+      <option name="PROGRAM_PARAMETERS" value="1 + 1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw1/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -53,37 +53,7 @@
     <option name="sortedColumn" value="1" />
     <option name="symbolColumnWidth" value="160" />
     <coverage-tree-state>
-      <expand>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="ParsesTests 100% 0/12" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="ProgramTests 100% 0/10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </coverage-tree-state>
   </component>
