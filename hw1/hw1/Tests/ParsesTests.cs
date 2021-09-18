@@ -41,5 +41,13 @@ namespace Tests
             Assert.Equal(expected, result);
         }
 
+        [Theory]
+        [InlineData(new string[]{"2","+","3","qefwefgwreg"},3)]
+        [InlineData(new string[]{"1","/"},3)]
+        public void ParserArgumentsLength(string[] args, int expected)
+        {
+            var result = Parser.CheckArgumentsLength(args);
+                Assert.Equal(expected, result);
+        }
     }
 }

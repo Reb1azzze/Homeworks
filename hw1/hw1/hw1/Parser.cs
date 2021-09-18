@@ -5,6 +5,12 @@ namespace hw1
 {
     public class Parser
     {
+        public static int CheckArgumentsLength(string[] args)
+        {
+            if (args.Length == 3) return 0;
+            Console.WriteLine("The program needs 3 arguments");
+            return 3;
+        }
         public static int CheckInput(string[] args, out double firstArg,
             out string operation,
             out double secondArg)

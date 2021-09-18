@@ -6,6 +6,7 @@ namespace hw1
     {
         public static int Main(string[] args)
         {
+            if (Parser.CheckArgumentsLength(args)==3) return 3;
             var InputCode = Parser.CheckInput( args,
                 out var firstArg,
                 out var operation,

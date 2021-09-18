@@ -5,10 +5,11 @@ namespace Tests
 {
     public class ProgramTests
     {
-        [Fact]
-        public void Main_WrongInput_NotReturnZero()
+        [Theory]
+        [InlineData(new string[]{"3245", "+", "(*&hf3702"},1)]
+        [InlineData(new string[]{"1", "/", "4", "12fwfwef"},1)]
+        public void Main_WrongInput_NotReturnZero(string[] args,int a)
         {
-            var args = new[] { "3245", "+", "(*&hf3702" };
             var result = Program.Main(args);
             Assert.True(result > 0);
         }
