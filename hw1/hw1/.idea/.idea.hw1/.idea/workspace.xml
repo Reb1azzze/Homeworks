@@ -51,7 +51,7 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="159" />
+    <option name="symbolColumnWidth" value="160" />
     <coverage-tree-state>
       <expand>
         <path>
@@ -61,13 +61,27 @@
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="hw1 100% 0/32" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="hw1 100% 0/32" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="hw1 100% 0/32" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="ParsesTests 100% 0/12" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/74" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/42" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="ProgramTests 100% 0/10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
