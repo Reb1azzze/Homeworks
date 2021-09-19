@@ -20,13 +20,13 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="RiderDotCoverFilteringPageId" />
   </component>
   <component name="RunManager" selected=".NET Project.hw1">
     <configuration name="hw1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/hw1/bin/Debug/net5.0/hw1.exe" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="/////////" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw1/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -56,29 +56,18 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 95% 4/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 100% 0/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 95% 4/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="hw1 100% 0/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 100% 0/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/45" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 95% 4/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="hw1 100% 0/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="hw1 100% 0/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 95% 4/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 91% 4/45" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 95% 4/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 91% 4/45" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tests 91% 4/45" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 100% 0/85" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/45" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tests 100% 0/45" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />

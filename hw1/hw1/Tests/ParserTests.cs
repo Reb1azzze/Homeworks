@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Tests
 {
-    public class ParsesTests
+    public class ParserTests
     {
         [Theory]
         [InlineData(new string[]{"2","/","/"},1)]
@@ -42,7 +42,7 @@ namespace Tests
         }
 
         [Theory]
-        [InlineData(new string[]{"2","+","3","qefwefgwreg"},3)]
+        [InlineData(new string[]{"2","+"},3)]
         [InlineData(new string[]{"1","/"},3)]
         public void ParserArgumentsLength(string[] args, int expected)
         {
