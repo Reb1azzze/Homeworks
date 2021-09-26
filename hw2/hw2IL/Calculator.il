@@ -1,37 +1,69 @@
-.class public abstract sealed auto ansi beforefieldinit
-  Homework2IL.Calculator
-    extends System.Object
+.class public auto ansi beforefieldinit hw1.Calculator
+    extends [System.Private.CoreLib]System.Object
 {
+    // Methods
+    .method public hidebysig static 
+        float64 Calculate (
+            float64 firstarg,
+            string operation,
+            float64 secondarg
+        ) cil managed 
+    {
+        .maxstack 2
+        .locals init (
+            [0] float64 result,
+            [1] float64,
+            [2] float64
+        )
+       ldc.i4.1
+       ldarg.1
+       ldstr "+"
+       call bool [System.Private.CoreLib]System.String::op_Equality(string, string)
+       ldarg.1
+       ldstr "-"
+       call bool [System.Private.CoreLib]System.String::op_Equality(string, string)
+       ldarg.1
+       ldstr "*"
+       call bool [System.Private.CoreLib]System.String::op_Equality(string, string)
+       ldarg.1
+       ldstr "/"
+       call bool [System.Private.CoreLib]System.String::op_Equality(string, string)
+       ldarg.0
+       ldarg.2
+       add
+       stloc.1
+       ldarg.0
+       ldarg.2
+       sub
+       stloc.1
+       ldarg.0
+       ldarg.2
+       mul
+       stloc.1
+       ldarg.2
+       ldc.r8 0.0
+       ldarg.0
+       ldarg.2
+       div
+       ldc.r8 0.0
+       stloc.1
+       ldc.r8 0.0
+       stloc.1
+       ldc.i4.1
+       ldloc.1
+       stloc.0
+       ldloc.0
+       stloc.2
+       ldloc.2
+       ret
+    }
 
-  .method public hidebysig static int32
-    Calculate(
-      int32 val1,
-      valuetype Homework2IL.CalculatorOperation operation,
-      int32 val2
-    ) cil managed
-  {
-    .maxstack 2
- 
-    ldarg.1       operation
-    ldc.i4.1
-    sub
-    switch       (plus, minus, multiply)
-    br.s         divide
-
-    plus ldarg.0       val1
-    ldarg.2       val2
-    add ret
-
-    multiply ldarg.0       val1
-    ldarg.2       val2
-    mul ret
-   
-    minus ldarg.0       val1
-    ldarg.2       val2
-    sub ret
-
-    divide ldarg.0  val1
-    ldarg.2       val2
-    div ret
-  }
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor () cil managed 
+    {
+        .maxstack 8
+        ldarg.0
+        call instance void [System.Private.CoreLib]System.Object::.ctor()
+        ret
+    } 
 } 
