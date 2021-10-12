@@ -13,6 +13,10 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Rider cache/options directory
+.idea/
+.idea/*
+
 # Mono auto generated files
 mono_crash.*
 
