@@ -22,7 +22,7 @@ jobs:
       working-directory: ./src/Homeworks
     - name: Build
       run: dotnet build --no-restore
-      working-directory: ./src/Homeworks
+      working-directory: ./src/Homeworks/hw1/hw1/Tests
     - name: Test
       run: dotnet test --no-build --verbosity normal
       working-directory: ./src/Homeworks
