@@ -21,7 +21,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\hw1\hw1.csproj" />
-      <ProjectReference Include="..\hw2Programm\hw2.csproj" />
     </ItemGroup>
 
 </Project>
