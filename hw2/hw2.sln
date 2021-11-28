@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw2", "hw2\hw2Programm\hw2.csproj", "{C379349F-38FC-45F6-A369-4F026E7A7AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "hw2\hw2Tests\Tests.csproj", "{C6957704-3C92-481D-B0A8-4F103BEA1754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw2IL", "hw2\hw2IL\hw2IL.ilproj", "{5093AAEE-B2F8-4156-92A2-6FA6648FD361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C379349F-38FC-45F6-A369-4F026E7A7AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C379349F-38FC-45F6-A369-4F026E7A7AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C379349F-38FC-45F6-A369-4F026E7A7AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C379349F-38FC-45F6-A369-4F026E7A7AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6957704-3C92-481D-B0A8-4F103BEA1754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6957704-3C92-481D-B0A8-4F103BEA1754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6957704-3C92-481D-B0A8-4F103BEA1754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6957704-3C92-481D-B0A8-4F103BEA1754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
