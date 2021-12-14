@@ -2,7 +2,7 @@
 using hw9.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HW9.Controllers
+namespace hw9.Controllers
 {
     public class CalculatorController : Controller
     {
