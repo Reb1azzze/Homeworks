@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using hw10.Services.Calculator;
 using hw10.Services.Database;
-using hw10.Services.Cash;
 
 namespace hw10.Services.Cash
 {
-    public class Cash
+    public class CashedCalculator : ICalculator
     {
         private readonly ICalculator _calculator;
         private readonly ApplicationContext _cashedExpression;
 
-        public Cash(ICalculator calculator, ApplicationContext cashedExpression)
+        public CashedCalculator(ICalculator calculator, ApplicationContext cashedExpression)
         {
             _calculator = calculator;
             _cashedExpression = cashedExpression;
