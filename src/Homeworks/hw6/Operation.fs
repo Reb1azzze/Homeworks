@@ -1,7 +1,7 @@
-﻿module hw6.Operation
+﻿module op
 
-type Operation =
+type OperationType =
     | Plus
     | Minus
-    | Multiply
     | Divide
+    | Multiply
