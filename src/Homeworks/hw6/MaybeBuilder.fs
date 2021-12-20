@@ -1,10 +1,8 @@
 ﻿module hw6.MaybeBuilder
 
 type MaybeBuilder() =
-    member this.Bind(x, f) =
+    member b.Bind(x, f) =
         match x with
+        | Ok x -> f x
         | Error e -> Error e
-        | Ok a -> f a
-    member this.Return(x) =
-        Ok x
-let maybe = MaybeBuilder()
+    member b.Return x = Ok x

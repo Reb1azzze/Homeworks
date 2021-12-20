@@ -1,11 +1,10 @@
 ﻿module hw6.Calculator
 
-let Calculate (val1: decimal, operation, val2: decimal) =
+let tryCalculate (val1: decimal) operation (val2:decimal) =
     match operation with
-    | divide ->
-        match val2 with
-        | 0m -> Error ErrorType.DivideByZero
-        | _ ->  val1 / val2 |> Ok 
-    | plus -> val1 + val2 |> Ok
-    | minus -> val1 - val2 |> Ok
-    | multiply -> val1 * val2 |> Ok
+    |plus -> Ok (val1 + val2)
+    |minus -> Ok (val1 - val2)
+    |multiply-> Ok (val1 * val2)
+    |divide -> match val2 with
+                    | 0m -> Error "Division by zero is not possible"
+                    | _ -> Ok (val1 / val2)
